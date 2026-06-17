@@ -39,6 +39,11 @@
             <p>View and manage bookings</p>
         </a>
         {% endif %}
+        <a href="{% url 'helpdesk:chat_page' %}" class="dashboard-card">
+    <div class="dashboard-icon">💬</div>
+    <h3>Helpdesk Chat</h3>
+    <p>Talk to support / AI assistant</p>
+</a>
     </div>
 </div>
 {% endblock %}
